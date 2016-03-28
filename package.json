@@ -25,6 +25,7 @@
   "cordovaPlatforms": [],
   "scripts": {
     "preinstall": "npm i -g ionic",
+    "install": "npm install -g cordova",
     "start": "ionic serve --lab -p $PORT"
   }
 }
