@@ -25,6 +25,6 @@
   "cordovaPlatforms": [],
   "scripts": {
     "preinstall": "npm i -g ionic",
-    "start": "ionic serve --lab --address env.NODE_IP -p env.NODE_PORT"
+    "start": "ionic serve --lab -p $PORT"
   }
 }
